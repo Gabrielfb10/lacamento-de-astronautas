@@ -31,16 +31,16 @@ O programa foi projetado para receber comandos através da entrada padrão (`std
    Faça o download da pasta deste projeto.
 
 2. **Prepare o arquivo de eventos:**
-   Certifique-se de que o arquivo `eventos.txt` (contendo os comandos que serão lidos pelo sistema) está localizado **exatamente na mesma pasta** do arquivo `main.cpp`.
+   Certifique-se de que o arquivo `eventos.txt` (contendo os comandos que serão lidos pelo sistema) está localizado na pasta **data**.
 
 3. **Abra o Terminal:**
-   Abra o prompt de comando ou terminal do seu sistema operacional e navegue até a pasta onde os arquivos foram extraídos.
+   Abra o prompt de comando ou terminal do seu sistema operacional e navegue até a pasta geral que contém as pastas do projeto.
 
 4. **Compile o código-fonte:**
    No terminal, execute o seguinte comando usando o compilador C++ (`g++`):
    ```bash
-   g++ main.cpp -o sistema
+   g++ src/main.cpp -o bin/sistema
 5. **Execute o sistema:**
    No terminal, execute o seguinte comando para executar o sistema consumindo um arquivo .txt com os comandos:
    ```bash
-   ./sistema < eventos.txt
+   ./bin/sistema < data/eventos.txt
