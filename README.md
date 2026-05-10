@@ -1,4 +1,4 @@
-**# 🚀 Sistema de Gestão de Agência Espacial
+## 🚀 Sistema de Gestão de Agência Espacial
 
 Este é um projeto acadêmico desenvolvido em C++ para simular o sistema de gerenciamento de voos e tripulações de uma Agência Espacial. O sistema opera via linha de comando, processando instruções em lote para cadastrar astronautas, planejar voos, gerenciar embarques e registrar o desfecho das missões espaciais.
 
