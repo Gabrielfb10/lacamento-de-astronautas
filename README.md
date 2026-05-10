@@ -1,15 +1,6 @@
 # 🚀 Sistema de Gestão de Agência Espacial
 
-Este é um projeto acadêmico desenvolvido em C++ para simular o sistema de gerenciamento de voos e tripulações de uma Agência Espacial. O sistema opera via linha de comando, processando instruções em lote para cadastrar astronautas, planejar voos, gerenciar embarques e registrar o desfecho das missões espaciais.
-
-## 🛠️ Conceitos e Tecnologias Aplicadas
-
-Durante o desenvolvimento deste sistema, foram aplicados diversos conceitos fundamentais de Ciência da Computação e Engenharia de Software:
-* **Linguagem:** C++
-* **Orientação a Objetos (POO):** Modelagem do sistema utilizando classes (`Astronauta` e `Voo`) para encapsular propriedades e comportamentos.
-* **Estruturas de Dados Dinâmicas:** Uso extensivo de `std::vector` para gerenciar coleções mutáveis de dados na memória.
-* **Gerenciamento de Memória:** Uso de passagem por referência (`&`) nas funções para otimizar o desempenho e evitar cópias desnecessárias de objetos grandes.
-* **Validação de Dados e Cláusulas de Guarda (Early Return):** Implementação de checagens rigorosas (ex: CPF numérico, impedimento de embarque de astronautas mortos ou em outras missões).
+Este é um projeto acadêmico desenvolvido em C++ para simular o sistema de gerenciamento de voos e tripulações de uma Agência Espacial. O sistema opera via linha de comando, processando instruções em lote para cadastrar astronautas, planejar voos, gerenciar embarques e registrar o desfecho das missões espaciais. Além disso, foi feito na por mim mesmo, não pela IA👍.
 
 ## ⚙️ Funcionalidades do Sistema
 
@@ -37,7 +28,7 @@ O programa foi projetado para receber comandos através da entrada padrão (`std
 ### Passo a Passo
 
 1. **Baixe os arquivos:**
-   Faça o download da pasta deste projeto (via arquivo `.zip` ou repositório) e extraia em seu computador.
+   Faça o download da pasta deste projeto.
 
 2. **Prepare o arquivo de eventos:**
    Certifique-se de que o arquivo `eventos.txt` (contendo os comandos que serão lidos pelo sistema) está localizado **exatamente na mesma pasta** do arquivo `main.cpp`.
@@ -49,3 +40,7 @@ O programa foi projetado para receber comandos através da entrada padrão (`std
    No terminal, execute o seguinte comando usando o compilador C++ (`g++`):
    ```bash
    g++ main.cpp -o sistema
+5. **Execute o sistema:**
+   No terminal, execute o seguinte comando para executar o sistema consumindo um arquivo .txt com os comandos:
+   ```bash
+   ./sistema < eventos.txt
